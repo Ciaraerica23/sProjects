@@ -1,0 +1,46 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Added to prevent scrolling */
+}
+
+body {
+    background-image: url(valen.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+h1 {
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 5s ease-in-out;
+    padding-top: 20%; /* Adjusted for better mobile display */
+}
+
+.button {
+    display: block; /* Changed to block for better mobile display */
+    margin: auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid  #a51e23;
+    color: #a51e23;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    margin-top: 20px; /* Adjusted for better mobile display */
+}
+
+@media (max-width: 600px) {
+    h1 {
+        padding-top: 10%; /* Adjusted for better mobile display */
+    }
+}
