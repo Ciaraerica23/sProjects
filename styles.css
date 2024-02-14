@@ -7,9 +7,10 @@ body, html {
 
 body {
     background-image: url(valen.JPG);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
+    height: 100vh;
 }
 
 h1 {
