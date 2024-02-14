@@ -7,8 +7,12 @@ body, html {
 
 body {
     background-image: url(valen.JPG);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh; /* Set height to 100% of the viewport height */
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */
 }
 
 h1 {
